@@ -26,7 +26,7 @@ func main() {
 			)
 			scanner.Scan()
 			opcao, err := strconv.ParseInt((strings.TrimSpace(scanner.Text())),10,64)
-			if err!= nil {
+			if err != nil {
 				fmt.Printf("Erro ao converter a opção para inteiro: %v\n", err)
 				return
 			}
