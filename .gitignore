@@ -1,0 +1,16 @@
+# ---- Segurança: segredos e chaves ----
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+id_*
+*_private_key*
+*_secret*
+*_token*
+wp-config.php
+*.crt
+*.cer
+*.der
